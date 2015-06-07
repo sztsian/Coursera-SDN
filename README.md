@@ -247,11 +247,14 @@ Connection to 127.0.0.1 closed.
 ```
 #### Issue you may have
 If you use Linux, you may see
+
 $vagrant up
+
 The provider 'libvirt' could not be found, but was requested to
+
 back the machine 'default'. Please use a provider that exists.
 
-If you see this, just run
+If you see this, just change your default provider as you need, for example
 
 $ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
